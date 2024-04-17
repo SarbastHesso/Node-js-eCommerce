@@ -7,7 +7,7 @@ const serverURI = 'http://localhost:' + PORT;
 const mongoURI = process.env.MONGO_URI;
 
 app.listen(PORT, () => {
-    console.log('Server running at: ' + serverURI)
+    console.log('Server running at: ' + PORT)
 });
 
 mongoose
